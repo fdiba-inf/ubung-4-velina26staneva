@@ -8,7 +8,8 @@ public class ArrayOutput {
   public static void main (String [] args) {
     Scanner input = new Scanner (System.in);
 
-    int[] numbers = new int [5];
+    int a = input.nextInt();
+    int[] numbers = new int [a];
     
     System.out.println("Enter a number: ");
   //  char S = ' ';
