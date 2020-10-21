@@ -17,7 +17,7 @@ public class ArrayInput {
     }
 
     String numbersAsString = Arrays.toString(numbers);
-    System.out.println("Numbers:" + numbersAsString);
+    System.out.println("Numbers: " + numbersAsString);
 
   }
 }
