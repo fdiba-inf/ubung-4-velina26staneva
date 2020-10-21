@@ -8,16 +8,14 @@ public class ArrayInput {
     
     Scanner input = new Scanner(System.in);
 
-    int a = input.nextInt();
-    int[] numbers = new int[a];
+    int[] numbers = new int[3];
 
     System.out.println("Enter number: ");
     for (int index = 0; index < numbers.length; index++ ) {
       numbers [index] = input.nextInt();
     }
 
-    String numbersAsString = Arrays.toString(numbers);
-    System.out.println("Numbers: " + numbersAsString);
-
+      String numbersAsString = Arrays.toString(numbers);
+      System.out.println("Numbers: " + numbersAsString);
   }
 }
