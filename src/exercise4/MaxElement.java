@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class MaxElement {
-  public static void main (String [] args){
+  public static void main(String [] args) {
 
     Scanner input = new Scanner(System.in);
 
@@ -14,11 +14,11 @@ public class MaxElement {
 
     System.out.print("Enter a number: ");
 
-    for(int index = 0; index < numbers.length; index++){
+    for(int index = 0; index < numbers.length; index++) {
         numbers[index] = input.nextDouble();
     }
-    for(int index = 1; index < numbers.length; index++){
-      if(Max < numbers[index]){
+    for(int index = 1; index < numbers.length; index++) {
+      if(Max < numbers[index]) {
         Max = numbers[index];
       }
     }
