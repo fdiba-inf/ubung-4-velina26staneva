@@ -12,6 +12,7 @@ public class ArrayInput {
     int[] numbers = new int[a];
 
     System.out.println("Enter number: ");
+    
     for (int index = 0; index < numbers.length; index++ ) {
       numbers [index] = input.nextInt();
     }
